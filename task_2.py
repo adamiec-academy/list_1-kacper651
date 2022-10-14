@@ -3,11 +3,11 @@
 def chess_board(n, k):
     for i in range(2 * n):
         if i % 2 == 0:
-            print(n * (2 * "  " + 2 * "##"))
-            print(n * (2 * "  " + 2 * "##"))
+            print(n * ("  " + "##"))
+            print(n * ("  " + "##"))
         else:
-            print(n * (2 * "##" + 2 * "  "))
-            print(n * (2 * "##" + 2 * "  "))
+            print(n * ("##" + "  "))
+            print(n * ("##" + "  "))
 
 
 chess_board(4, 2)
