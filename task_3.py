@@ -10,10 +10,10 @@ def envelope(n):
 
     print("*" + (n - 1) * " " + "*" + (n - 1) * " " + "*") # ŚRODEK
 
-    for i in range(n - 2, 0, -1):
+    for i in range(n - 2, -1, -1):
         print("*" + i * " " + "*" + (2 * (n - i) - 3) * " " + "*" + i * " " + "*")
 
     print((2 * n + 1) * "*")  # PODSTAWA DOLNA
 
 
-envelope(4)
+envelope(3)
