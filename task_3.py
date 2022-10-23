@@ -16,4 +16,4 @@ def envelope(n):
     print((2 * n + 1) * "*")  # PODSTAWA DOLNA
 
 
-envelope(3)
+envelope(4)
