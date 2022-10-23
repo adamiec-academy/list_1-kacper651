@@ -7,7 +7,7 @@ def factorial(n):  # chyba najprostsze zadanie, ale może dlatego, że pisałem 
 
 def report():
     for i in range(101):
-        print(f"{i}! is {len(str(factorial(i)))} digits long")  # tego fstringa podpatrzyłem z zajęć sorry
+        print(f"{i : >3}! is {len(str(factorial(i))) : >3} digits long")  # tego fstringa podpatrzyłem z zajęć sorry
 
 
 report()
